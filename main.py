@@ -26,7 +26,7 @@ parser.add_argument("-o", "--optimize-traffic",
                     help="Set this flag to optimize the aggregated network traffic instead of the number of streams",
                     action='store_true')
 parser.add_argument("--scheduling_output", type=str, help="Path to the scheduling output file", required=False)
-parser.add_argument("--cplex-path", type=str, help="Path to the CPLEX solver", required=False)
+parser.add_argument("--cplex-path", type=str, help="Path to the CPLEX solver. If not given, the program assumes it can be found in path.", required=False)
 
 args = parser.parse_args()
 

@@ -12,6 +12,8 @@ TBA
 ## Requirements
 
 - Python (tested with 3.10)
+  - docplex 2.25.236
+  - parse 1.19.0
 - CPLEX (tested with 22.10)
 
 ## Getting started
@@ -45,5 +47,7 @@ We provide small sample inputs in the `dummy_data` directory.
 | -p CANDIDATE_PATHS, --candidate-paths CANDIDATE_PATHS         | Number of candidate paths to be computed.                                                                                             |
 | -o, --optimize-traffic                                        | Set this flag to optimize the aggregated network traffic instead of the number of streams                                             |
 | --scheduling_output SCHEDULING_OUTPUT                         | Path to the scheduling output file                                                                                                    |
+| --cplex-path                                                  | Path to the CPLEX solver. If not given, the program assumes it can be found in path.                                                  |
 
 Note that using more than one candidate path will increase the runtime significantly.
+
