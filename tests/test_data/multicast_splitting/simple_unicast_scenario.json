@@ -1,0 +1,196 @@
+{
+    "time_steps": [
+        {
+            "time": 0,
+            "removeClusters": [],
+            "addClusters": [
+                {
+                    "cluster_id": 0,
+                    "priority": 130,
+                    "streams": [
+                        {
+                            "flowID": 0,
+                            "frame size": 125,
+                            "period": 2000,
+                            "source": 6,
+                            "destination": 8
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 1,
+                    "priority": 130,
+                    "streams": [
+                        {
+                            "flowID": 1,
+                            "frame size": 250,
+                            "period": 250,
+                            "source": 8,
+                            "destination": 11
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 2,
+                    "priority": 130,
+                    "streams": [
+                        {
+                            "flowID": 2,
+                            "frame size": 750,
+                            "period": 500,
+                            "source": 8,
+                            "destination": 11
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 3,
+                    "priority": 130,
+                    "streams": [
+                        {
+                            "flowID": 3,
+                            "frame size": 500,
+                            "period": 250,
+                            "source": 9,
+                            "destination": 8
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 4,
+                    "priority": 52,
+                    "streams": [
+                        {
+                            "flowID": 4,
+                            "frame size": 500,
+                            "period": 1000,
+                            "source": 9,
+                            "destination": 7
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 5,
+                    "priority": 52,
+                    "streams": [
+                        {
+                            "flowID": 5,
+                            "frame size": 125,
+                            "period": 250,
+                            "source": 9,
+                            "destination": 8
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 6,
+                    "priority": 52,
+                    "streams": [
+                        {
+                            "flowID": 6,
+                            "frame size": 1000,
+                            "period": 250,
+                            "source": 8,
+                            "destination": 9
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 7,
+                    "priority": 52,
+                    "streams": [
+                        {
+                            "flowID": 7,
+                            "frame size": 750,
+                            "period": 2000,
+                            "source": 9,
+                            "destination": 11
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 8,
+                    "priority": 56,
+                    "streams": [
+                        {
+                            "flowID": 8,
+                            "frame size": 125,
+                            "period": 2000,
+                            "source": 9,
+                            "destination": 11
+                        }
+                    ]
+                }
+            ],
+            "streams added": 9,
+            "streams removed": 0
+        },
+        {
+            "time": 1,
+            "removeClusters": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "addClusters": [
+                {
+                    "cluster_id": 9,
+                    "priority": 186,
+                    "streams": [
+                        {
+                            "flowID": 9,
+                            "frame size": 250,
+                            "period": 1000,
+                            "source": 9,
+                            "destination": 10
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 10,
+                    "priority": 186,
+                    "streams": [
+                        {
+                            "flowID": 10,
+                            "frame size": 1500,
+                            "period": 250,
+                            "source": 9,
+                            "destination": 11
+                        }
+                    ]
+                }
+            ],
+            "streams removed": 4,
+            "streams added": 2
+        }
+    ],
+    "config_info": {
+        "number_of_time_steps": 2,
+        "number_of_initial_clusters": 9,
+        "cluster_add": 2,
+        "cluster_remove": 4,
+        "package_sizes": [
+            125,
+            250,
+            500,
+            750,
+            1000,
+            1500
+        ],
+        "hyper_cycle": 2000,
+        "equal_traffic": 0,
+        "cluster_sizes": [
+            1,
+            2,
+            4
+        ],
+        "network_path": "../dummy_data/graph_random_6-1.txt",
+        "periods": [
+            250,
+            500,
+            1000,
+            2000
+        ]
+    }
+}

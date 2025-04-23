@@ -1,0 +1,428 @@
+{
+    "config_info": {
+        "number_of_time_steps": 2,
+        "number_of_initial_clusters": 10,
+        "cluster_add": 10,
+        "cluster_remove": 0,
+        "frame_sizes": [
+            125,
+            250,
+            500,
+            750,
+            1000,
+            1500
+        ],
+        "hyper_cycle": 2000,
+        "equal_traffic": 0,
+        "cluster_sizes": [
+            1
+        ],
+        "network_path": "../../multicast/multicast_eval/input/scalability/5/network/graph_even_grid_5.txt",
+        "periods": [
+            250,
+            500,
+            1000,
+            2000
+        ]
+    },
+    "multicast_group_info": {
+        "multicast_first_possible_address": 50,
+        "multicast_probability_distribution": [
+            0.33,
+            0.33,
+            0.33
+        ],
+        "multicast_addresses": [
+            {
+                "multicast": 224000,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    25,
+                    40
+                ]
+            },
+            {
+                "multicast": 224001,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    25,
+                    31
+                ]
+            },
+            {
+                "multicast": 224002,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    35,
+                    45
+                ]
+            },
+            {
+                "multicast": 224003,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    43,
+                    45
+                ]
+            },
+            {
+                "multicast": 224004,
+                "dstNumber": 4,
+                "dst_addresses": [
+                    25,
+                    26,
+                    30,
+                    35
+                ]
+            },
+            {
+                "multicast": 224005,
+                "dstNumber": 4,
+                "dst_addresses": [
+                    27,
+                    35,
+                    39,
+                    47
+                ]
+            },
+            {
+                "multicast": 224006,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    33,
+                    35
+                ]
+            },
+            {
+                "multicast": 224007,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    30,
+                    32
+                ]
+            },
+            {
+                "multicast": 224008,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    25,
+                    27
+                ]
+            },
+            {
+                "multicast": 224009,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    29,
+                    44
+                ]
+            },
+            {
+                "multicast": 224010,
+                "dstNumber": 4,
+                "dst_addresses": [
+                    28,
+                    32,
+                    35,
+                    49
+                ]
+            },
+            {
+                "multicast": 224011,
+                "dstNumber": 4,
+                "dst_addresses": [
+                    25,
+                    30,
+                    42,
+                    48
+                ]
+            },
+            {
+                "multicast": 224012,
+                "dstNumber": 2,
+                "dst_addresses": [
+                    35,
+                    42
+                ]
+            }
+        ]
+    },
+    "time_steps": [
+        {
+            "time": 0,
+            "removeClusters": [],
+            "addClusters": [
+                {
+                    "cluster_id": 0,
+                    "priority": 109,
+                    "streams": [
+                        {
+                            "flowID": 0,
+                            "frame size": 750,
+                            "period": 2000,
+                            "source": 37,
+                            "destination": 224000
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 1,
+                    "priority": 35,
+                    "streams": [
+                        {
+                            "flowID": 1,
+                            "frame size": 250,
+                            "period": 250,
+                            "source": 37,
+                            "destination": 224001
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 2,
+                    "priority": 25,
+                    "streams": [
+                        {
+                            "flowID": 2,
+                            "frame size": 1500,
+                            "period": 500,
+                            "source": 37,
+                            "destination": 46
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 3,
+                    "priority": 114,
+                    "streams": [
+                        {
+                            "flowID": 3,
+                            "frame size": 1500,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 224002
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 4,
+                    "priority": 242,
+                    "streams": [
+                        {
+                            "flowID": 4,
+                            "frame size": 1500,
+                            "period": 500,
+                            "source": 37,
+                            "destination": 224003
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 5,
+                    "priority": 193,
+                    "streams": [
+                        {
+                            "flowID": 5,
+                            "frame size": 250,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 224004
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 6,
+                    "priority": 68,
+                    "streams": [
+                        {
+                            "flowID": 6,
+                            "frame size": 1000,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 224005
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 7,
+                    "priority": 138,
+                    "streams": [
+                        {
+                            "flowID": 7,
+                            "frame size": 1000,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 224006
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 8,
+                    "priority": 194,
+                    "streams": [
+                        {
+                            "flowID": 8,
+                            "frame size": 250,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 224007
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 9,
+                    "priority": 147,
+                    "streams": [
+                        {
+                            "flowID": 9,
+                            "frame size": 1000,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 49
+                        }
+                    ]
+                }
+            ],
+            "streams added": 10,
+            "streams removed": 0
+        },
+        {
+            "time": 1,
+            "removeClusters": [],
+            "addClusters": [
+                {
+                    "cluster_id": 10,
+                    "priority": 63,
+                    "streams": [
+                        {
+                            "flowID": 10,
+                            "frame size": 1000,
+                            "period": 2000,
+                            "source": 37,
+                            "destination": 224008
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 11,
+                    "priority": 138,
+                    "streams": [
+                        {
+                            "flowID": 11,
+                            "frame size": 250,
+                            "period": 1000,
+                            "source": 37,
+                            "destination": 34
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 12,
+                    "priority": 216,
+                    "streams": [
+                        {
+                            "flowID": 12,
+                            "frame size": 500,
+                            "period": 250,
+                            "source": 37,
+                            "destination": 224009
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 13,
+                    "priority": 185,
+                    "streams": [
+                        {
+                            "flowID": 13,
+                            "frame size": 250,
+                            "period": 250,
+                            "source": 37,
+                            "destination": 25
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 14,
+                    "priority": 174,
+                    "streams": [
+                        {
+                            "flowID": 14,
+                            "frame size": 500,
+                            "period": 2000,
+                            "source": 37,
+                            "destination": 224010
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 15,
+                    "priority": 33,
+                    "streams": [
+                        {
+                            "flowID": 15,
+                            "frame size": 500,
+                            "period": 2000,
+                            "source": 37,
+                            "destination": 41
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 16,
+                    "priority": 239,
+                    "streams": [
+                        {
+                            "flowID": 16,
+                            "frame size": 125,
+                            "period": 250,
+                            "source": 37,
+                            "destination": 224011
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 17,
+                    "priority": 54,
+                    "streams": [
+                        {
+                            "flowID": 17,
+                            "frame size": 125,
+                            "period": 2000,
+                            "source": 37,
+                            "destination": 38
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 18,
+                    "priority": 254,
+                    "streams": [
+                        {
+                            "flowID": 18,
+                            "frame size": 250,
+                            "period": 2000,
+                            "source": 37,
+                            "destination": 46
+                        }
+                    ]
+                },
+                {
+                    "cluster_id": 19,
+                    "priority": 251,
+                    "streams": [
+                        {
+                            "flowID": 19,
+                            "frame size": 1500,
+                            "period": 250,
+                            "source": 37,
+                            "destination": 224012
+                        }
+                    ]
+                }
+            ],
+            "streams removed": 0,
+            "streams added": 10
+        }
+    ]
+}
